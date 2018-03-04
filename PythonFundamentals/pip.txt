@@ -1,0 +1,23 @@
+pip install Django==1.11.9
+-- Install Django package v. 1.11.9.
+
+pip list
+-- List Python packages installed
+
+pip install Django==1.11.9 (We know you already ran this one. What information do you see returned in terminal after this command?)
+-- Uses cached version of installed packages.
+	
+pip freeze (What's the difference between freeze and list?)
+Freeze lists packages installed in the "requirements format" (== instead of parens around version numbers?)
+
+pip freeze > requirements.txt. What do you see when you ls? What's inside this file?
+List of all pip package dependencies
+
+pip uninstall Django
+Uninstalls Django package
+
+pip show Django
+No output (indicates Django is not installed)
+
+pip search Flask
+Finds all packages available related to search string
