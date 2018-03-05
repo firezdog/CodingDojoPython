@@ -1,0 +1,13 @@
+def toupleMaker(dictionary):
+    toupleList = []
+    for key in dictionary:
+        toupleList.append((key,dictionary[key]))
+    return toupleList
+
+my_dict = {
+  "Speros": "(555) 555-5555",
+  "Michael": "(999) 999-9999",
+  "Jay": "(777) 777-7777"
+}    
+
+print(toupleMaker(my_dict))
